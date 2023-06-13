@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aman developer porfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(6, 1, 27);
+            color: rgb(255, 255, 255);
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 0 80;
+            background-color: rgb(25, 7, 74);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 33px;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color white
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+        .firstSection div{
+            width: 30%;
+            justify-content: space-around;
+            align-intems: center;
+            margin: 80px 0;
+        }
+        .leftSection{
+            font-size: 2.2rem;
+        }
+
+        .rightSection img{
+            width: 80%;
+            margin: 90px 0;  
+        }
+        .purple{
+            color:rgb(120, 55, 225);
+        }
+        #element{
+            color:rgb(120, 55, 225);
+        }
+
+        .social-links {
+            text-align: center; /* Align the links to the center */
+            margin-top: 20px; /* Add some space above the links */
+          }
+          .reservedSection{
+            text-align: center; /* Align the links to the center */
+            margin-top: 50px;
+
+          }
+
+
+          
+    </style>
+</head>
+<body>
+    <header>
+        <nav>   
+            <div class="profile-picture">
+                <img src="profile.png" alt="Profile Picture">
+              </div>
+              
+              <style>
+                .profile-picture img {
+                  width: 80x;   /* Set the desired width */
+                  height: 80px;  /* Set the desired height */
+                  object-fit: cover; /* Maintain aspect ratio and cover the div */
+                }
+              </style>
+              
+            <div class="left">Aman</div>
+            <div class="right">
+            <ul>          
+               <li><a>about</a></li> 
+               <li><a>Services</a></li>
+               <li><a href="https://github.com/Amanlabh">Projects</a></li>
+               <li><a href="https://www.linkedin.com/in/aman-kumar-95a205216/">contact</a></li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,My name is  <span class="purple">Aman</span>
+            <ul>and i am a passionate</ul>
+            <span id="element"></span>
+            </div>
+            <div class="rightSection">
+            <img src="tech.png" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: [ 'Linux enthusiast!' , 'Gamer!' , 'And' ,'Self taught Web Developer!'],
+          typeSpeed: 100,
+        });
+      </script>
+     
+
+      <div class="social-links">
+        <li><a href="https://www.instagram.com/_musafirr_._/">Instagram</a></li>
+
+       <li><a href="https://www.linkedin.com/in/aman-kumar-95a205216/">LinkedIn</a></li>
+
+       <li><a href="https://github.com/Amanlabh">GitHub</a></li>
+      </div>
+
+      <div class="reservedSection">
+        <p class="mt-8 text-center text-base text-gray-400">© 2023 Aman All rights reserved.</p>
+        <p class="mt-8 text-center text-base text-gray-400">© Designed by Aman</p>
+      </div>>
+     
+</body>
+</html>
